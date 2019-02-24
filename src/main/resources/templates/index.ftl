@@ -19,11 +19,11 @@
       <h2>Pages:</h2>
       <ul>
         <#items as page>
-          <li><a href="/wiki/${page}">${page}</a></li>
+          <li><a href="/io.vertx.guides.wiki/${page}">${page}</a></li>
         </#items>
       </ul>
     <#else>
-      <p>The wiki is currently empty!</p>
+      <p>The io.vertx.guides.wiki is currently empty!</p>
     </#list>
   </div>
 
